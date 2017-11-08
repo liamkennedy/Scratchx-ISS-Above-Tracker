@@ -153,8 +153,8 @@
 
   var descriptor = {
     blocks: [
-      ['h', 'when ISS passes over %s', 'whenISSPasses', 'Boston, MA'],
-      ['R', 'distance from %s in %m.measurements', 'distanceFrom', 'Boston, MA', 'kilometers'],
+      ['h', 'when ISS passes over %s', 'whenISSPasses', 'Houston, TX'],
+      ['R', 'distance from %s in %m.measurements', 'distanceFrom', 'Houston, TX', 'kilometers'],
       ['r', 'current ISS %m.loc', 'getISSInfo', 'longitude']
     ],
     menus: {
