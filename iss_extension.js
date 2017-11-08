@@ -164,7 +164,7 @@
     url: 'http://liamkennedy.github.io/scratchx-iss-above-tracker'
   };
 
-  ScratchExtensions.register('ISS Above Tracker', descriptor, ext);
+  ScratchExtensions.register('ISS Tracker', descriptor, ext);
 
   updateISSLocation();
   updateISSPlacename();
