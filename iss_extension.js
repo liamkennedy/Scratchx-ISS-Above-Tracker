@@ -130,7 +130,7 @@
     if (!issData) return;
     if (stat === "longitude" || stat === "latitude")
       return issData[stat].toFixed(6).toString();
-    else if (stat === "placename" & issPlacename)
+    else if (stat === "placename")
       return issPlacename;
     else
       return issData[stat].toFixed(2).toString();
@@ -161,7 +161,7 @@
       loc: ['longitude', 'latitude', 'altitude', 'velocity', 'placename'],
       measurements: ['kilometers', 'miles']
     },
-    url: 'http://khanning.github.io/scratch-isstracker-extension'
+    url: 'http://liamkennedy.github.io/scratchx-iss-above-tracker'
   };
 
   ScratchExtensions.register('ISS Tracker', descriptor, ext);
