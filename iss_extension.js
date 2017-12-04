@@ -58,7 +58,7 @@
       type: "GET",
       dataType: "json",
       //url: "http://api.open-notify.org/iss-now.json",
-      //url: "https://api.wheretheiss.at/v1/satellites/25544"
+      //url: "https://api.wheretheiss.at/v1/satellites/25544" ,
       url: "http://status.issabove.info/isspos",
       success: function(data) {
         issData = data;
